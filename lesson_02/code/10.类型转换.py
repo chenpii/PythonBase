@@ -1,5 +1,35 @@
-a = "hello"
 # 调用int()来将a转换成整型
 # 返回转换类型后的对象,赋值给原来的变量
-a = int(a)
-print("a的类型是:", type(a))
+a = int(True)
+b = int(123.4)
+c = int("456")
+print("a的类型是:", type(a), ",值是：", a)
+print("b的类型是:", type(b), ",值是：", b)
+print("c的类型是:", type(c), ",值是：", c)
+
+a = float(True)
+b = float(123)
+c = float("456")
+print("a的类型是:", type(a), ",值是：", a)
+print("b的类型是:", type(b), ",值是：", b)
+print("c的类型是:", type(c), ",值是：", c)
+
+a = str(True)
+b = str(123)
+c = str(45.6)
+print("a的类型是:", type(a), ",值是：", a)
+print("b的类型是:", type(b), ",值是：", b)
+print("c的类型是:", type(c), ",值是：", c)
+
+a = bool(123)
+b = bool(45.6)
+c = bool("789")
+d = bool(0)
+e = bool(None)
+f = bool("")
+print("a的类型是:", type(a), ",值是：", a)
+print("b的类型是:", type(b), ",值是：", b)
+print("c的类型是:", type(c), ",值是：", c)
+print("d的类型是:", type(d), ",值是：", d)
+print("e的类型是:", type(e), ",值是：", e)
+print("f的类型是:", type(f), ",值是：", f)
